@@ -1,6 +1,6 @@
 "use client";
 
-import { Pagination } from "@/components/Pagination/Pagination";
+// import { Pagination } from "@/components/Pagination/Pagination";
 import { Table } from "@/components/Table/Table";
 import { useStories } from "@/hooks/useStories";
 import { usePathname, useSearchParams } from "next/navigation";
@@ -31,12 +31,12 @@ export function MyStories() {
   };
 
   return (
-    <div className="lg:w-full">
-      <div className="w-screen overflow-scroll">
+    <div className="w-[350px] lg:w-full">
+      <div className="w-screen overflow-auto">
         {stories ? (
           <>
             <Table items={stories} onSort={onSort} />
-            <Pagination currentPage={1} total={20} />
+            {/* <Pagination currentPage={1} total={20} /> */}
           </>
         ) : null}
       </div>
