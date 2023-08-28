@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Horoscope",
+    "pages": ["1", "2", "3", "4", "5"],
+    "publishDate": "",
+    "lastModified": "Mar 31, 8:56 PM",
+    "status": "draft",
+    "liveFrom": "Mar 31, 8:56 PM",
+    "ends": "Mar 31, 8:56 PM"
+  },
+  {
+    "id": 2,
+    "title": "Daily Horoscope",
+    "pages": ["1", "2"],
+    "publishDate": "08-28-2023",
+    "lastModified": "Mar 31, 8:56 PM",
+    "status": "scheduled",
+    "liveFrom": "8:56 PM",
+    "ends": "Mar 31, 8:56 PM"
+  },
+  {
+    "id": 3,
+    "title": "Daily Horoscope",
+    "pages": ["1", "2", "3", "4", "5", "7", "8", "9"],
+    "publishDate": "10-16-2023",
+    "lastModified": "Mar 31, 8:56 PM",
+    "status": "draft",
+    "liveFrom": "8:56 PM",
+    "ends": "Mar 31, 8:56 PM"
+  },
+  {
+    "id": 4,
+    "title": "Daily Horoscope",
+    "pages": ["1", "2", "3"],
+    "publishDate": "11-23-2023",
+    "lastModified": "Mar 31, 8:56 PM",
+    "status": "live",
+    "liveFrom": "8:56 PM",
+    "ends": "Mar 31, 8:56 PM"
+  },
+  {
+    "id": 5,
+    "title": "Weekly Wallpapers",
+    "pages": ["1", "2", "3", "4"],
+    "publishDate": "06-02-2023",
+    "lastModified": "Mar 31, 8:56 PM",
+    "status": "past",
+    "liveFrom": "8:56 PM",
+    "ends": "Mar 31, 8:56 PM"
+  },
+  {
+    "id": 6,
+    "title": "Weekly Wallpapers",
+    "pages": [],
+    "publishDate": "05-19-2023",
+    "lastModified": "Mar 31, 8:56 PM",
+    "status": "live",
+    "liveFrom": "8:56 PM",
+    "ends": "Mar 31, 8:56 PM"
+  },
+  {
+    "id": 7,
+    "title": "Weekly Wallpapers",
+    "pages": ["1", "2", "3", "4", "5", "7", "8", "9"],
+    "publishDate": "06-02-2023",
+    "lastModified": "Mar 31, 8:56 PM",
+    "status": "draft",
+    "liveFrom": "8:56 PM",
+    "ends": "Mar 31, 8:56 PM"
+  }
+]
