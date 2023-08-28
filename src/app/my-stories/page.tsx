@@ -1,16 +1,6 @@
 import { AddButton } from "@/components/AddButton/AddButton";
-import { SearchBar } from "@/components/SearchBar/SearchBar";
-import { StatusSelect } from "@/components/StatusFilter/StatusFilter";
+import { Filters } from "@/components/Filters/Filters";
 import { MyStories } from "@/containers/MyStories";
-
-function Filters() {
-  return (
-    <div className="flex w-full gap-x-4 justify-between lg:w-auto">
-      <SearchBar />
-      <StatusSelect />
-    </div>
-  );
-}
 
 export default function MyStoriesPage() {
   return (

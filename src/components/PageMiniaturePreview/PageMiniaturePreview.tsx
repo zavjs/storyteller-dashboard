@@ -14,7 +14,7 @@ export function PageMiniaturePreview({
   const exceeds = extra > 0 ? extra : null;
 
   return (
-    <div className="flex gap-x-1.5">
+    <div className="flex gap-x-1.5 max-w-full overflow-auto">
       {limited.map((page) => (
         <Image
           key={`${storyId}-${page}`}

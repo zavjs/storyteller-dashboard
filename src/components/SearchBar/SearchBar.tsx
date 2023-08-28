@@ -1,4 +1,8 @@
-export function SearchBar() {
+type SearchBarProps = {
+  onSearch: React.ChangeEventHandler<HTMLInputElement>
+}
+
+export function SearchBar({ onSearch }: SearchBarProps) {
   return (
     <div className="flex border border-px border-[#bbbcc2] rounded cursor-pointer lg:w-[376px]">
       <input
@@ -6,6 +10,7 @@ export function SearchBar() {
         name="stories-search"
         className="outline-0 w-32 py-2 pl-3 pr-2 rounded lg:w-[376px]"
         placeholder="Search"
+        onChange={onSearch}
       />
       <label
         htmlFor="stories-search"

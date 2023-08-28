@@ -1,8 +1,8 @@
-## Stormideas, 
+## Welcome, 
 
-Thank you for reviewing this code. First, the initial instructions, and then some specific comments about my development choices.
+Hello Stormideas. Thank you for reviewing this. Kindly see instructions and development comments below.
 
-### Running Instructions
+### 1. Running Instructions
 
 As a regular Next.js application, you should be able to run this entirely by running:
 
@@ -11,7 +11,7 @@ As a regular Next.js application, you should be able to run this entirely by run
 
 And then go on port 3000 to see the app live. 
 
-### Code Comments
+### 2. Code Comments
 
 I used a Tailwind-based component library called [DaisyUI](https://daisyui.com/components/). It helps expedite development process by providing easy-to-use UI elements like drawers, buttons and more. Then, I customized styles to match as close as possible the Figma designs. 
 
