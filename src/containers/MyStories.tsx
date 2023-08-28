@@ -32,7 +32,7 @@ export function MyStories() {
 
   return (
     <div>
-      <div className="w-screen overflow-auto lg:overflow-visible">
+      <div className="w-screen page-content">
         {stories ? (
           <>
             <Table items={stories} onSort={onSort} />

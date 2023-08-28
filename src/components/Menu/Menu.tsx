@@ -28,7 +28,7 @@ function Menu({ children }: MenuProps) {
   return (
     <menu className="drawer lg:drawer-open">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-      <div className="drawer-content lg:w-[calc(100%-240px)]">{children}</div>
+      <div className="drawer-content w-screen lg:w-[calc(100%-240px)]">{children}</div>
       <nav className="drawer-side top-[52px] lg:top-[60px]">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
         <ul className="menu py-0 px-0 w-3/5 lg:w-60 min-h-full bg-primary text-white text-sm">
