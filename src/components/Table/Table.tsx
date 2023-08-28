@@ -92,7 +92,7 @@ export function Table({ items, onSort }: TableProps) {
   };
 
   return (
-    <table className="w-[1024px] text-sm lg:w-full">
+    <table className="w-[1024px] text-sm lg:w-[calc(100%-240px)]">
       <thead className="border border-transparent border-b-[#DFE8EC]">
         <tr>
           <TableHeaderColumn

@@ -1,4 +1,4 @@
-## Hi folks at Stormideas, 
+## Stormideas, 
 
 Thank you for reviewing this code. First, the initial instructions, and then some specific comments about my development choices.
 
