@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} lg:overflow-hidden`}>
+      <body className={`${inter.className} overflow-hidden`}>
         <Header />
         <Menu>
           {children}
