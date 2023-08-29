@@ -4,7 +4,7 @@ type PaginationProps = {
 
 export function Pagination({ currentPage }: PaginationProps) {
   return (
-    <div className="p-4 flex items-center justify-between text-sm gap-x-4">
+    <div className="p-4 flex items-center justify-between text-sm gap-x-4 w-[380px] mr-0 ml-auto">
       <div className="flex gap-x-1.5 items-center">
         <label htmlFor="pageNo">Page</label>
         <input
