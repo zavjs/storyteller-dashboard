@@ -13,6 +13,7 @@ export function Header() {
           <div>
             <Image
               src="/images/logo.svg"
+              priority
               height={38}
               width={186}
               alt="Storyteller logo"

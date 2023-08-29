@@ -21,7 +21,7 @@ export function PageMiniaturePreview({
           height={52}
           width={29}
           src="/images/preview-miniature.svg"
-          alt=""
+          alt="story miniture"
         />
       ))}
       {exceeds ? (
