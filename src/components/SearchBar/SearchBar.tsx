@@ -7,7 +7,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
     <div className="flex border border-px border-[#bbbcc2] rounded cursor-pointer lg:w-[376px]">
       <input
         id="stories-search"
-        name="stories-search"
+        name="search"
         className="outline-0 w-32 py-2 pl-3 pr-2 rounded lg:w-[376px]"
         placeholder="Search"
         onChange={onSearch}

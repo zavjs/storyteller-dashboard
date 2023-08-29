@@ -3,25 +3,37 @@
 import { SearchBar } from "@/components/SearchBar/SearchBar";
 import { StatusSelect } from "@/components/StatusFilter/StatusFilter";
 import debounce from "lodash.debounce";
-import { useState } from "react";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 
 export function Filters() {
-  const [search, setSearch] = useState<string | null>(null);
+  const router = useRouter();
+  const params = useSearchParams();
+  const pathname = usePathname();
 
-  const onSearch = debounce((e) => {
-    const { value } = e.target;
-    setSearch(value);
-  }, 500);
+  const onChange = (e: any) => {
+    const current = new URLSearchParams(Array.from(params.entries()));
+    const { name, value } = e.target;
+
+    if(name === 'search') {
+      current.set('search', value)
+    }
+    if(name === 'status') {
+      current.set('status', value.toLowerCase())
+    }
+
+    const currStr = current.toString();
+    const query = currStr ? `?${currStr}` : "";
+    const route = `${pathname}${query}`;
+
+    router.push(route);
+  };
+
+  const onSearch = debounce(onChange, 500);
 
   return (
     <div className="flex w-full gap-x-4 justify-between lg:w-auto relative">
-      {search ? (
-        <div className="absolute right-0 -top-[40px]">
-          <pre>Searching... ?search={search}</pre>
-        </div>
-      ) : null}
       <SearchBar onSearch={onSearch} />
-      <StatusSelect />
+      <StatusSelect onSelect={onChange} />
     </div>
   );
 }
