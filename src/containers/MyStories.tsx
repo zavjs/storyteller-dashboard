@@ -1,6 +1,6 @@
 "use client";
 
-// import { Pagination } from "@/components/Pagination/Pagination";
+import { Pagination } from "@/components/Pagination/Pagination";
 import { Table } from "@/components/Table/Table";
 import { useStories } from "@/hooks/useStories";
 import { usePathname, useSearchParams } from "next/navigation";
@@ -34,10 +34,12 @@ export function MyStories() {
     <div>
       <div className="w-screen page-content">
         {stories ? (
-          <>
+          <div>
             <Table items={stories} onSort={onSort} />
-            {/* <Pagination currentPage={1} total={20} /> */}
-          </>
+            <div className="flex">
+              <Pagination currentPage={1} total={20} />
+            </div>
+          </div>
         ) : null}
       </div>
     </div>
