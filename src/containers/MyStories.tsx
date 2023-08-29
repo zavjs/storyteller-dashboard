@@ -36,8 +36,8 @@ export function MyStories() {
         {stories ? (
           <div>
             <Table items={stories} onSort={onSort} />
-            <div className="flex">
-              <Pagination currentPage={1} total={20} />
+            <div className="w-full lg:w-[calc(100%-240px)]">
+              <Pagination currentPage={1} />
             </div>
           </div>
         ) : null}
