@@ -1,6 +1,6 @@
 ## Start here
 
-Hello folks at Stormideas, and thank you for reviewing this code. See instructions and code comments in the sections below:
+Hello Dave and Lukasz! See instructions and code comments in the sections below:
 
 ### Running Instructions
 
@@ -10,7 +10,7 @@ As a regular Next.js application, you should be able to run this with:
 
 > `yarn dev`
 
-- Then go on http://localhost:3000 to see the app live. 
+- Then go on http://localhost:3008 to see the app live. 
 
 ### Code Comments
 
