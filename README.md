@@ -27,6 +27,6 @@ As a regular Next.js application, you should be able to run this with:
 
 #### How would I improve this?
 
-For just one use it doesn't make sense to further generalize the UI components, but in a more robust application I would certainly create more reusability in highly replicable components like buttons and form elements.
+For just one use it doesn't make sense to further generalize the UI components, but in a more robust application I would certainly create more Atom granularity for highly replicable components like buttons and form elements.
 
-- I would also rely heavily on hooks for shared effects, allowing the logic around deleting, editing or creating new stories to be more decomposed from the UI. 
+In a robust React application I would also rely heavily on hooks for shared effects, enabling the logic around deleting, editing or creating new stories to be more decomposed from the UI. 
